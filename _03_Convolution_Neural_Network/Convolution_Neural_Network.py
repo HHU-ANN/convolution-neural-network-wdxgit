@@ -13,7 +13,6 @@ import torchvision
 import torchvision.transforms as transforms
 
 from torch.utils.data import DataLoader
-    
 
 class AlexNet(nn.Module):
     def __init__(self, num_classes=10):
