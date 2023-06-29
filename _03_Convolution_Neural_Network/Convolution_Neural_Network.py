@@ -90,6 +90,6 @@ def main():
     model = AlexNet() # 若有参数则传入参数
     current_dir = os.path.dirname(os.path.abspath(__file__))
     parent_dir = os.path.dirname(current_dir)
-    model.load_state_dict(torch.load(parent_dir + '/pth/model_2.pth',map_location='cpu'))
+    model.load_state_dict(torch.load(parent_dir + '/pth/model_5.pth',map_location='cpu'))
     return model
     
