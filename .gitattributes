@@ -1,1 +1,2 @@
 data/exp03/cifar-10-python.tar.gz filter=lfs diff=lfs merge=lfs -text
+pth/model.pth filter=lfs diff=lfs merge=lfs -text
