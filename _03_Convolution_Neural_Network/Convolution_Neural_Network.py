@@ -57,7 +57,7 @@ def read_data():
 
     num_epochs = 10
     batch_size =24
-    learning_rate =0.005
+    #learning_rate =0.005
 
     transform_train = transforms.Compose([
         transforms.Resize(256),
